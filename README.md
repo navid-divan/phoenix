@@ -1,6 +1,6 @@
 # Phoenix Voting
 
-The core implementation of Phoenix post-quantum verifiable electronic voting system with delay-use malicious-ballot-box privacy.
+The core implementation of Phoenix post-quantum verifiable e-voting system with delay-use malicious-ballot-box privacy.
 
 ## Requirements
 
