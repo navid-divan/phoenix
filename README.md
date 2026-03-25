@@ -1,6 +1,6 @@
 # Phoenix – Post-Quantum Electronic Voting
 
-**Verifiable Voting with Delay-Use Malicious-Ballot-Box Privacy**
+This is a verifiable voting scheme with delay-use malicious-ballot-box privacy.
 
 ## Requirements
 
@@ -17,11 +17,11 @@ python run_benchmark.py
 
 WARNING: This is an academic proof-of-concept implementation and has NOT been audited for production use.
 
-| Component | Instantiation | Assumption | Security |
-|-----------|--------------|-----------|----------|
-| Encryption | BFV (TenSEAL) | RLWE | 128-bit PQ |
-| Zero-Knowledge Proof | ABDLOP (Lyubashevsky et al. CRYPTO 2022) | MSIS + MLWE | 128-bit |
-| Signature | FHS (leveled, context-hiding) | SIS | 128-bit PQ |
-| Hash | SHA-256 | Collision resistance | 128-bit |
+| Component Instantiation | Assumption | Security |
+|--------------|-----------|----------|
+| BFV (TenSEAL) | RLWE | 128-bit |
+| ABDLOP (Lyubashevsky et al. CRYPTO 2022) | MSIS + MLWE | 128-bit |
+| FHS (leveled, context-hiding) | SIS | 128-bit |
+| SHA-256 | Collision resistance | 128-bit |
 
 All proofs are made non-interactive via the Fiat–Shamir transform in the random oracle model.
