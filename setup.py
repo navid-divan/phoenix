@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="phoenix-voting",
     version="1.0.0",
-    description="Post-quantum verifiable double-private voting system",
+    description="Post-quantum verifiable private voting system",
     packages=find_packages(),
     python_requires=">=3.9",
     install_requires=[
