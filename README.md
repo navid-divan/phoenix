@@ -24,4 +24,3 @@ WARNING: This is an academic proof-of-concept implementation and has NOT been au
 | FHS (leveled, context-hiding) | SIS | 128-bit |
 | SHA-256 | Collision resistance | 128-bit |
 
-All proofs are made non-interactive via the Fiat–Shamir transform in the random oracle model.
