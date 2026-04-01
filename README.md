@@ -1,11 +1,11 @@
 # Phoenix Voting System
 
-The core implementation of Phoenix post-quantum verifiable e-voting with delay-use malicious-ballot-box privacy.
+The core implementation of Phoenix post-quantum verifiable e-voting with delay-use malicious-ballot-box privacy built upon standard BFV encryption of [Microsoft SEAL](https://github.com/microsoft/SEAL) via [TenSEAL](https://github.com/OpenMined/TenSEAL) interface and Lattice-based ZKP of IBM Research's [LaZer](https://github.com/lazer-crypto/lazer) libraries.
 
 ## Requirements
 
 - Python 3.9+
-- [TenSEAL](https://github.com/OpenMined/TenSEAL) ≥ 0.3.14
+- TenSEAL ≥ 0.3.14
 - NumPy ≥ 1.24
 
 ## Running the Benchmark
