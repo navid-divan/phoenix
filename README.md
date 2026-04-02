@@ -26,7 +26,21 @@ WARNING: This is an academic proof-of-concept implementation and has NOT been au
 
 ## Machine-checked Privacy Proof
 
-The `/easycrypt` contains the machine-checked EasyCrypt proof that the **Phoenix** voting system satisfies delay-use malicious-ballotbox ballot privacy (du-mb-BPRIV), as defined by [Dragan et al. (CSF 2022)](https://ieeexplore.ieee.org/document/9919663); `PhoenixSecurity.ec` is the entry point to check proof.
+The `/easycrypt` contains the machine-checked EasyCrypt proof that the **Phoenix** voting system satisfies delay-use malicious-ballotbox ballot privacy (du-mb-BPRIV), as defined by [Dragan et al. (CSF 2022)](https://ieeexplore.ieee.org/document/9919663).
+
+## Requirements for Proof Check
+- [EasyCrypt](https://github.com/EasyCrypt/easycrypt) stable release `r2022.04`
+- Alt-Ergo `2.4.0`
+- Z3 `4.8.10` (optional)
+- CVC4 `1.8` (optional)
+
+Check available provers with:
+```bash
+why3 config detect
+```
+
+## Checking the Privacy Proof
+Inside `/easycrypt`, the `PhoenixSecurity.ec` file is top-level theorem entry point to check the proof.
 
 ```bash
 easycrypt PhoenixSecurity.ec
