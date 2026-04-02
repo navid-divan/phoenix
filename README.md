@@ -46,4 +46,4 @@ Inside `/easycrypt`, the `PhoenixSecurity.ec` file is top-level theorem entry po
 easycrypt PhoenixSecurity.ec
 ```
 
-Follow the EasyCrypt installation guide at https://github.com/EasyCrypt/easycrypt.
+Follow the EasyCrypt installation guide at [https://github.com/EasyCrypt/easycrypt](https://github.com/EasyCrypt/easycrypt).
