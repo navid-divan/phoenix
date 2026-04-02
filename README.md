@@ -24,3 +24,12 @@ WARNING: This is an academic proof-of-concept implementation and has NOT been au
 | FHS (leveled, context-hiding) | SIS | 128-bit |
 | SHA-256 | Collision resistance | 128-bit |
 
+## Machine-checked Privacy Proof
+
+The `/easycrypt` contains the machine-checked EasyCrypt proof that the **Phoenix** voting system satisfies delay-use malicious-ballotbox ballot privacy (du-mb-BPRIV), as defined by [Dragan et al. (CSF 2022)](https://ieeexplore.ieee.org/document/9919663); `PhoenixSecurity.ec` is the entry point to check proof.
+
+```bash
+easycrypt PhoenixSecurity.ec
+```
+
+Follow the EasyCrypt installation guide at https://github.com/EasyCrypt/easycrypt.
