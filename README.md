@@ -40,7 +40,7 @@ why3 config detect
 ```
 
 ## Checking the Privacy Proof
-Inside `/easycrypt`, the `PhoenixSecurity.ec` file is top-level theorem entry point to check the proof that contains one `admit` in the bound lemma body. The theorem statement and all module definitions are complete. Closing the `admit` requires filling in the full hybrid game sequence.
+Inside `/easycrypt`, the `PhoenixSecurity.ec` file is top-level theorem entry point to check the proof.
 
 ```bash
 easycrypt PhoenixSecurity.ec
