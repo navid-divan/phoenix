@@ -120,6 +120,9 @@ module Phoenix (BFV : BFV_Scheme) (ZKP : ZKP_Scheme)
     return ok;
   }
 
+  proc get_epk () : epk = { return epk; }
+  proc get_gpp () : pp  = { return gpp; }
+
   proc verify_vote (b : ballot, pbb : PBB) : bool = {
     var h     : hash_val;
     var found : bool;
